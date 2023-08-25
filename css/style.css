@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background-image: url(./../aya/pasillo-borroso_1203-93.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* encabezado */
+nav {
+    background-color: rgba(128, 128, 128, 0.555);
+
+}
+.nav-item:hover, .dropdown-menu {
+    background-color: rgba(255, 192, 203, 0.623);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: .8s;
+}
+
+}
+.nav-item {
+    margin-inline: 10px;
+}
+.logo:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+}
+.logo {
+
+
+}
+.active {
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 10px;
+    
+}
+.active:hover {
+    background-color: rgba(255, 192, 203, 0.623);
+
+
+}
+.dropdown-item:hover {
+    background-color:rgba(128, 128, 128, 0.514);
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 192, 203, 0.623);
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    color: black;
+}
+/*index*/
+.row {
+    width: 100%;
+}
+.inicio1 {
+
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 0px 0px 70%;
+}
+.inicio2  {
+    margin-top: 2rem;
+    
+}
+.inicio3 {
+    animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: 1s;
+    margin-top: 2rem;
+    transition: .3s;
+
+}
+
+.card {
+    animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .2s;
+    background-color: rgba(255, 192, 203, 0.623);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: .3s;
+
+}
+.card2 {
+    animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
+    animation-delay: .2s;
+    background-color: rgba(255, 192, 203, 0.623);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 1s ;
+}
+.card:hover {
+    background-color: rgba(128, 128, 128, 0.747);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.BotonDeContacto {
+    display: flex;
+    justify-content: center;
+
+
+}
+.btn {
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.747);
+
+}
+.btct {
+    width: 300px;
+    margin-top: 70px;
+    padding: 4px;
+    border: 1px solid rgba(255, 192, 203, 0.623) ;
+    color: aliceblue;
+    background-color: rgba(124, 124, 124, 0.596);
+    border-radius: 20px;
+
+    
+
+}
+.btct:hover {
+    width: 350px;
+    background-color: rgba(255, 192, 203, 0.623);
+    transition: .5s;
+
+}
+.mb-3 {
+    margin: 70px;
+    width: 1200px;
+}
+section {
+    margin-top: 80px;
+}
+.accordion-item {
+    margin-left: 50px;
+}
+.d1 {
+    background-color: rgba(255, 192, 203, 0.623);
+    border: 1px solid rgba(124, 124, 124, 0.596);
+
+
+}
+.d1:hover {
+    background-color: rgba(124, 124, 124, 0.596);
+
+}
+.e1 {
+    background-color: rgba(124, 124, 124, 0.596);
+    transition: .5s ;
+
+
+}
+
+@keyframes slide-in-elliptic-top-fwd{0%{transform:translateY(-600px) rotateX(-30deg) scale(0);transform-origin:50% 100%;opacity:0}100%{transform:translateY(0) rotateX(0) scale(1);transform-origin:50% 1400px;opacity:1}}
