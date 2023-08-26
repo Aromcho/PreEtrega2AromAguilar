@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background-image: url(./../aya/pasillo-borroso_1203-93.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px 10px 0px;
+    display: inline-flex;
+    background-color: rgba(128, 128, 128, 0.295);
+
+    
+}
+
+.logo {
+    width: 70px;
+    
+}
+nav ul li {
+    margin: 50px 50px 10px 0px;
+    display: inline;
+}
+.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover {
+    padding: 5px 55px;
+    background-color:rgba(253, 161, 230, 0.555);
+    border-radius: 10px;
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition-duration: .3s;
+    
+
+}
+.active {
+    padding: 5px 55px;
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 10px;
+    
+}
+
+.bis:hover {
+
+}
+.bis {
+    height: 25px;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    
+
+    
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "f1 f2 f3";
+    
+
+}
+.aya {
+    color: rgb(214, 211, 211);
+    grid-area: f1;
+    width: 500px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 0px  0px 70% 0px ;
+}
+.aya h1 {
+    text-align: center;
+}
+.aya h3 {
+    margin-right: 5px ;
+    text-align: right;
+}
+.aya h2 {
+    text-align: center;
+}
+.aya button:hover {
+    width: 330px;
+    margin: 0;
+    background-color:rgba(128, 128, 128, 0.507) ;
+    transition-duration: .5s;
+}
+.aya button {
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 40px;
+    margin: 1px solid black;
+    background-color: rgb(253, 161, 230);
+}
+.emp:hover {
+    transition-duration: .5s;
+    width: 310px;
+    height: 410px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+.emp {
+    grid-area: f2;
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color: rgba(253, 161, 230, 0.555);
+    border-radius: 50px;
+    text-align: center;
+
+}
+.imgemp {
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+.psn:hover {
+    transition-duration: .5s;
+    width: 310px;
+    height: 410px;
+    background-color: rgba(128, 128, 128, 0.507);
+    
+}
+.psn {
+    text-align: center;
+    grid-area: f3;
+    justify-content: right;
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color:rgba(253, 161, 230, 0.555);
+    border-radius: 50px;
+
+}
+.imgpsn {
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+
+}
+.serv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "ser1 ser1"
+    "ser2 ser3"
+    "ser4 ser5"
+    "ser6 ser7";
+}
+.ser1 ,.ser2 ,.ser3 ,.ser4 ,.ser5 ,.ser6 ,.ser7 {
+    color: rgb(80, 80, 80);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgba(253, 161, 230, 0.555);
+
+}
+.ser1:hover  , .ser2:hover, .ser3:hover, .ser4:hover, .ser5:hover, .ser6:hover, .ser7:hover {
+    
+    background-color:rgba(128, 128, 128, 0.507) ;
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition-duration: .3s;
+}
+.ser1 {
+
+    grid-area: ser1;
+}
+.ser2 {
+    grid-area: ser2;
+}
+.ser3 {
+
+    grid-area: ser3;
+}
+.ser4 {
+
+    grid-area: ser4;
+}
+.ser5 {
+
+    grid-area: ser5;
+}
+.ser6 {
+
+    grid-area: ser6;
+}
+.ser7 {
+
+    grid-area: ser7;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    color: rgb(80, 80, 80);
+    background-color:  rgba(126, 126, 126, 0.815);
+    text-align: center;
+    padding: 20px;
+}
+.prueba:hover {
+    transition-duration: .5s;
+    background-color: rgba(253, 161, 230, 0.555);
+}
+.prueba {
+    display: inline-table;
+    text-align: center;
+    margin: 100px 100px 100px 400px ;
+    background-color: rgba(168, 168, 168, 0.164);
+    padding: 20px;
+    border-radius: 50px;
+}
+label {
+    display: block;
+}
+#fecha, #cbb {
+    width: 50px;
+}
+form {
+    margin-top: 10px;
+
+ }
+ .login:hover {
+    transition-duration: .5s;
+    background-color: rgba(253, 161, 230, 0.555);
+ }
+.login {
+    display: inline-table;
+    text-align: center;
+    margin: 100px 100px 100px 400px ;
+    background-color: rgba(168, 168, 168, 0.164);
+    padding: 20px;
+    border-radius: 50px;
+}
+.reseña {
+    margin: 5px;
+    padding: 5px;
+}
+.videonosotros {
+    margin: 5px;
+    padding: 5px;
+
+}
