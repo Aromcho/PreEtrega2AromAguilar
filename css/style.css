@@ -72,8 +72,15 @@ a {
     color: black;
 }
 /*index*/
+.uno {
+
+    
+}
+.todo {
+    
+}
 .row {
-    width: 100%;
+    
 }
 .inicio1 {
 
@@ -83,6 +90,8 @@ a {
 }
 .inicio2  {
     margin-top: 2rem;
+    
+    border-radius: 50px;
     
 }
 .inicio3 {
@@ -137,6 +146,11 @@ a {
     
 
 }
+.mapa {
+    width:100%; 
+    height:200px;
+    border:0; 
+}
 .btct:hover {
     width: 350px;
     background-color: rgba(255, 192, 203, 0.623);
@@ -175,6 +189,8 @@ section {
 }
 .click {
     padding: 3rem ;
+    width: 58%;
+    
 }
 .scr {
     background-color:rgba(124, 124, 124, 0.253) ;
@@ -376,6 +392,46 @@ input:hover {
     border-radius: 50%;
     margin: 10px;
 }
-/* medias */
+/* me*/    
+
+@media screen and (max-width: 480px) {
+    /*primera parte del inicio*/
+    .uno {
+        display: flex;
+        flex-direction: column;
+    }
+    .todo {
+        width: 100%;
+        display: grid;
+        
+
+    }
+    header {
+        width: 100%;
+    }
+    .inicio1 {
+        grid-area: inicio1;
+        width: 100vw;
+        height: 400px;
+    }
+    .inicio2 {
+        grid-area: inicio2;
+        margin-left: 40px;
+    
+    }
+    .inicio3 {
+        grid-area: inicio3;
+        margin-left: 40px;
+
+    }
+    /* segunda parte del inicio*/
+    .click {
+        width: 100%;
+        padding: 10px;
+
+    }
+    /**/
+
+}
 
 @keyframes slide-in-elliptic-top-fwd{0%{transform:translateY(-600px) rotateX(-30deg) scale(0);transform-origin:50% 100%;opacity:0}100%{transform:translateY(0) rotateX(0) scale(1);transform-origin:50% 1400px;opacity:1}}
