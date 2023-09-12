@@ -1,0 +1,19 @@
+
+nav {
+    background-color: rgba(128, 128, 128, 0.555);
+
+    .nav-item:hover  {
+        background-color: rgba(255, 192, 203, 0.623);
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        transition: .8s;
+        .dropdown-menu {
+            background-color: rgb(255, 192, 203);
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            transition: .1s;
+        }
+
+    }
+
+}

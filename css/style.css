@@ -38,10 +38,7 @@ nav {
 .logo:hover {
     transform: rotate(360deg);
     transition: .6s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-    transition
-    
-    
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .active {
     background-color: rgba(128, 128, 128, 0.514);
@@ -357,9 +354,6 @@ input:hover {
 .reseña:hover {
     background-color: rgba(128, 128, 128, 0.747);
     color: aliceblue;
-}
-.videonosotros {
-    
 }
 .video {
     background-color: rgba(128, 128, 128, 0.747);
