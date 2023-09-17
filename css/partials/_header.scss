@@ -1,19 +1,60 @@
 
 nav {
     background-color: rgba(128, 128, 128, 0.555);
+    .logo:hover {
+        transform: rotate(360deg);
+        transition: .6s;
+        transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    
+    .nav-item {
+        margin-inline: 10px;
+        .active {
+            background-color: rgba(128, 128, 128, 0.514);
+            border-radius: 10px;
+
+            & .active:hover {
+                background-color: rgba(255, 192, 203, 0.623);
+            
+            
+            }
+            
+        }
+    }
 
     .nav-item:hover  {
         background-color: rgba(255, 192, 203, 0.623);
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         transition: .8s;
+
+        a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+        
+        
+        }
+
         .dropdown-menu {
             background-color: rgb(255, 192, 203);
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: .1s;
+
+            .dropdown-item:hover {
+                background-color:rgba(128, 128, 128, 0.514);
+            }
         }
 
     }
+    
 
+}
+
+.btn:hover {
+    background-color: rgba(255, 192, 203, 0.623);
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    color: black;
 }
