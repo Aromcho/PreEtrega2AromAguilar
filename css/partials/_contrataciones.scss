@@ -1,3 +1,13 @@
+.formulario {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:30% 40% 30%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+    ". . ."
+    ". cont ."
+    ". . ." ;
+
 .contenedor {
     margin: -50px;
     grid-area: cont;
@@ -12,7 +22,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: .3s;
 
-    & .contenedor:hover {
+    &:hover {
         background-color: rgba(255, 192, 203, 0.623);
         color: black;
     
@@ -50,5 +60,5 @@
 
     
 
-
+}
 }
