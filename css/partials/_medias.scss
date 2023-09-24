@@ -21,11 +21,15 @@
     .inicio2 {
         grid-area: inicio2;
         margin-left: 40px;
+        width: 80%;
+        
+        
     
     }
     .inicio3 {
         grid-area: inicio3;
         margin-left: 40px;
+        width: 80%;
 
     }
     .imgultima {
@@ -40,6 +44,8 @@
         margin-right: 0;
     }
     .serv {
+        height: 100vh;
+        width: 100vw;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, 1fr);
@@ -51,9 +57,27 @@
         "ser5"
         "ser6"
         "ser7";
+
+        .serdim {
+            width: 90vw;
+            padding: 10px;
+        
         }
-        .ser1, .ser2, .ser3, .ser4, .ser5, .ser6, .ser7 {
+        .esquina {
+            border-radius: 25px;
+            border: none;
+        }
+        .txserv {
+            width: 90vw;
+            padding: 20px; 
+        }
+        .show {
             width: 100vw;
+        }
+        }
+        .ser1 .ser2 .ser3 .ser4 .ser5 .ser6 .ser7 {
+            margin: 10px;
+            width: 90vw;
 
         }
         
