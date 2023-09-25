@@ -1,6 +1,10 @@
 
 nav {
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color:$grisTransp;
+
+    .imgLogo {
+        width:60px;
+    }
     .logo:hover {
         transform: rotate(360deg);
         transition: .6s;
@@ -15,7 +19,7 @@ nav {
             border-radius: 10px;
 
             &:hover {
-                background-color: rgba(255, 192, 203, 0.623);
+                background-color: $rosaTransp;
             
             
             }
@@ -23,7 +27,7 @@ nav {
     }
 
     .nav-item:hover  {
-        background-color: rgba(255, 192, 203, 0.623);
+        background-color: $rosaTransp;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         transition: .8s;
@@ -37,13 +41,13 @@ nav {
         }
 
         .dropdown-menu {
-            background-color: rgb(255, 192, 203);
+            background-color: $rosa;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: .1s;
 
             .dropdown-item:hover {
-                background-color:rgba(128, 128, 128, 0.514);
+                background-color:$grisTransp;
             }
         }
 
@@ -53,7 +57,7 @@ nav {
 }
 
 .btn:hover {
-    background-color: rgba(255, 192, 203, 0.623);
+    background-color: r$rosaTransp;
     border: 1px solid rgba(0, 0, 0, 0.623);
     color: black;
 }

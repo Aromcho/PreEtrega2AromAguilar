@@ -1,7 +1,7 @@
 .prefre {
     .container1 {
         margin-top: 10px;
-        background-color: rgba(255, 192, 203, 0.623);
+        background-color: $rosaTransp;
         border-radius: 50px 50px 50px 0;
         height: 100px;
         display: flex;
@@ -11,16 +11,17 @@
     }
     .container2 {
         margin-top: 10px;
-        background-color:rgba(128, 128, 128, 0.747);
+        background-color:$grisTransp;
         border-radius: 50px 50px 0 50px ;
         height: 100px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         border: 1px solid black;
-        color: aliceblue;
+        color: $colorLetra;
     }
     .imgchat {
+        width:50px;
         border-radius: 50%;
         margin: 10px;
     }

@@ -11,9 +11,9 @@
 .contenedor {
     margin: -50px;
     grid-area: cont;
-    background-color: rgba(128, 128, 128, 0.747);
+    background-color:$grisTransp;
     border-radius: 50px;
-    color: aliceblue;
+    color: $colorLetra;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
     transition: .3s;
 
     &:hover {
-        background-color: rgba(255, 192, 203, 0.623);
+        background-color: $rosaTransp;
         color: black;
     
     }
@@ -52,7 +52,7 @@
         }
         input:hover {
             border-bottom: 2px solid rgb(128, 128, 128);
-            background-color: rgba(255, 192, 203, 0.623);
+            background-color: $rosaTransp;
             border-radius: 5px;
         
         }

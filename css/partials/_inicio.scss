@@ -1,7 +1,7 @@
 .todo {
     .inicio1 {
 
-        color: aliceblue;
+        color: $colorLetra;
         background-color: rgba(0, 0, 0, 0.897);
         border: 1px solid black;
         border-radius: 0px 0px 70%;
@@ -15,13 +15,13 @@
                 width: 300px;
                 margin-top: 70px;
                 padding: 4px;
-                border: 1px solid rgba(255, 192, 203, 0.623) ;
-                color: aliceblue;
-                background-color: rgba(124, 124, 124, 0.596);
+                border: 1px solid $rosaTransp ;
+                color: $colorLetra;
+                background-color: $grisTransp;
                 border-radius: 20px;
                 &:hover {
                     width: 350px;
-                    background-color: rgba(255, 192, 203, 0.623);
+                    background-color: $rosaTransp;
                     transition: .5s;
                 
                 }
@@ -41,8 +41,8 @@
 
         .btn {
             border: 1px solid black;
-            color: aliceblue;
-            background-color: rgba(128, 128, 128, 0.747);
+            color: $colorLetra;
+            background-color: $grisTransp;
         
         }
         .card {
@@ -50,14 +50,14 @@
             border-radius: 30px;
             animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94);
             animation-delay: .2s;
-            background-color: rgba(255, 192, 203, 0.623);
+            background-color: $rosaTransp;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: .3s;
         
         }
         .card:hover {
-            color: aliceblue;
-            background-color: rgba(128, 128, 128, 0.747);
+            color: $colorLetra;
+            background-color: $grisTransp;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         }
         
@@ -69,15 +69,15 @@
         transition: .3s;
         .btn {
             border: 1px solid black;
-            color: aliceblue;
-            background-color: rgba(128, 128, 128, 0.747);
+            color: $colorLetra;
+            background-color: $grisTransp;
         
         }
 
         .card2 {
             animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94);
             animation-delay: .2s;
-            background-color: rgba(255, 192, 203, 0.623);
+            background-color: $rosaTransp;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: .3s ;
         }
@@ -88,14 +88,14 @@
             border-radius: 30px; 
             animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94);
             animation-delay: .2s;
-            background-color: rgba(255, 192, 203, 0.623);
+            background-color: $rosaTransp;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
             transition: .3s;
         
         }
         .card:hover {
-            color: aliceblue;
-            background-color: rgba(128, 128, 128, 0.747);
+            color: $colorLetra;
+            background-color: $grisTransp;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         }
     
@@ -105,12 +105,12 @@
 }
 .btn {
     border: 1px solid black;
-    color: aliceblue;
-    background-color: rgba(128, 128, 128, 0.747);
+    color: $colorLetra;
+    background-color: $grisTransp;
 
 }
 .btn:hover {
-    background-color: rgba(255, 192, 203, 0.623);
+    background-color: $rosaTransp;
     border: 1px solid rgba(0, 0, 0, 0.623);
     color: black;
 }
@@ -133,18 +133,18 @@ section {
     border-radius: 50px;
 }
 .d1 {
-    background-color: rgba(255, 192, 203, 0.623);
-    border: 1px solid rgba(124, 124, 124, 0.596);
+    background-color: $rosaTransp;
+    border: 1px solid $grisTransp;
     border-radius: 50px;
     &:hover {
-        background-color: rgba(124, 124, 124, 0.596);
+        background-color: $grisTransp;
     
     }
 
 
 }
 .e1 {
-    background-color: rgba(124, 124, 124, 0.596);
+    background-color: $grisTransp;
     transition: .5s ;
 
 
@@ -164,7 +164,7 @@ section {
     }
 }
 footer {
-    background-color: rgba(255, 192, 203, 0.623);
+    background-color: $rosaTransp;
     position: absolute;
     bottom: 0;
     width: 100%;
