@@ -1,14 +1,17 @@
+@mixin dimenciones($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    
+}
+
 .nosotros {
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centrar;
     flex-direction: column;
 
     .reseña {
         margin-bottom: 10px;
-        width: 100%;
-        height: 60vh;
+        @include dimenciones(100%,60vh);
         background-color:$rosaTransp;
         border-radius: 30px;
         padding: 10px;
@@ -27,8 +30,7 @@
     .video {
         background-color:$grisTransp;
         padding: 10px;
-        width: 100%;
-        height: 60vh;
+        @include dimenciones(100%,60vh);
         border-radius: 50px;
     }
 }

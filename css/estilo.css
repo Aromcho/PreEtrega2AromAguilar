@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+.nosotros, .formulario .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -312,9 +318,6 @@ footer {
   background-color: rgba(128, 128, 128, 0.555);
   border-radius: 50px;
   color: aliceblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
           animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   -webkit-animation-delay: 0.2s;
@@ -355,9 +358,6 @@ footer {
 
 .nosotros {
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 .nosotros .reseña {
@@ -515,5 +515,29 @@ footer {
   }
   .inicio2, .inicio3 {
     margin-left: 10px;
+  }
+}
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotateX(0) scale(1);
+    transform-origin: 50% 1400px;
+    opacity: 1;
   }
 }/*# sourceMappingURL=estilo.css.map */

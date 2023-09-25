@@ -5,3 +5,9 @@ $grisTransp:rgba(128, 128, 128, 0.555);
 $rosaTransp:rgba(255, 192, 203, 0.623);
 $rosa:rgb(255, 192, 203);
 $colorLetra:aliceblue;
+
+%centrar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

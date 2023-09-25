@@ -1,3 +1,9 @@
+@mixin dimenciones($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    
+}
+
 .formulario {
     height: 100vh;
     display: grid;
@@ -9,14 +15,13 @@
     ". . ." ;
 
 .contenedor {
+    @extend %centrar;
     margin: -50px;
     grid-area: cont;
     background-color:$grisTransp;
     border-radius: 50px;
     color: $colorLetra;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;
     animation-delay: .2s;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;

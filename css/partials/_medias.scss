@@ -1,3 +1,8 @@
+@mixin dimenciones($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+    
+}
 @media screen and (max-width: 480px)
  {
     .uno {
@@ -15,6 +20,7 @@
     }
     .inicio1 {
         grid-area: inicio1;
+        
         width: 100vw;
         height: 400px;
     }
