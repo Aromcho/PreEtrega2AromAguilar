@@ -78,6 +78,9 @@ nav .nav-item:hover .dropdown-menu .dropdown-item:hover {
   transition: 0.1s;
 }
 
+.todo {
+  width: 97vw;
+}
 .todo .inicio1 {
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.897);
@@ -219,8 +222,9 @@ section {
 }
 
 .scr {
+  margin: 0;
   background-color: rgba(124, 124, 124, 0.253);
-  width: 100%;
+  width: 100bw;
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -417,6 +421,7 @@ footer {
   }
   .todo {
     width: 100%;
+    margin: 0px;
     display: grid;
   }
   header {
@@ -424,7 +429,7 @@ footer {
   }
   .inicio1 {
     grid-area: inicio1;
-    width: 100vw;
+    width: 100%;
     height: 400px;
   }
   .inicio2 {

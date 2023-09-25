@@ -5,6 +5,7 @@
 }
 
 .todo {
+    width: 97vw;
     .inicio1 {
 
         color: $colorLetra;
@@ -81,6 +82,7 @@
         }
 
         .card2 {
+            
             animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94);
             animation-delay: .2s;
             background-color: $rosaTransp;
@@ -160,8 +162,9 @@ section {
     width: 58%;
 }
 .scr {
+    margin: 0;
     background-color:rgba(124, 124, 124, 0.253) ;
-    width: 100%;
+    width: 100bw;
     border-radius: 30px;
     transition: .5s;
     &:hover {
